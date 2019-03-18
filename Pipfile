@@ -8,6 +8,7 @@ requests = "*"
 pandas = "*"
 jupyterlab = "*"
 flake8 = "*"
+twine = "*"
 
 [packages]
 
