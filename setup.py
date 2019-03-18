@@ -5,7 +5,7 @@ from distutils.core import Command
 
 setup(
     name='mlbcolors',
-    version='0.0.1',
+    version='0.0.2',
     description="Easy access to the official colors of every team in Major League Baseball",
     author='Ben Welsh',
     author_email='ben.welsh@gmail.com',
