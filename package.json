@@ -1,0 +1,23 @@
+{
+  "name": "mlbcolors",
+  "version": "0.0.1",
+  "description": "Easy access to the official colors of every team in Major League Baseball",
+  "license": "MIT",
+  "keywords": [
+    "colors",
+    "sports",
+    "baseball",
+    "mlb"
+  ],
+  "author": {
+    "name": "Ben Welsh",
+    "url": "https://palewi.re/who-is-ben-welsh/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/datadesk/mlbcolors.git"
+  },
+  "scripts": {
+    "npmprep": "make npmprep",
+  }
+}

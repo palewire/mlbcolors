@@ -1,4 +1,9 @@
-.PHONY: test ship
+.PHONY: test ship npmprep
+
+npmprep:
+	rm -rf `pwd`/build
+	mkdir `pwd`/build
+	cp mlbcolors/data.json build/mlbcolors.json
 
 test:
 	flake8 mlbcolors
